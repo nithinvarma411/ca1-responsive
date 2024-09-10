@@ -1,0 +1,214 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    height: 100vh;
+}
+
+.slide {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    width: 100%;
+    height: auto; 
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+
+.amenu1 {
+    padding-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.bmenu1 {
+    margin-top: 6px;
+}
+
+.playlist {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.playlist1 {
+    height: 20px;
+}
+
+.download {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+
+.download-img {
+    height: 30px;
+    width: 30px;
+}
+
+.ab {
+    margin-top: 7px;
+}
+
+.dream {
+    font-size: 15px;
+}
+
+.last-photo {
+    height: 30px;
+    width: auto; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    gap: 10px;
+}
+
+.last-photo1 {
+    height: 30px;
+    width: 30px;
+}
+
+.content {
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+header h2 {
+    margin-bottom: 20px;
+}
+
+.playlist-row {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.playlist-box {
+    display: flex;
+    flex-direction: row;
+    height: auto; 
+    width: 100%; 
+    max-width: 350px; 
+}
+
+.div2 {
+    height: 75px;
+    width: 75px;
+}
+
+.a1 {
+    background-color: gray;
+    width: auto; 
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.logo {
+    height: 60px;
+    width: auto; 
+    justify-content: center;
+}
+
+#logo1 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.show {
+    height: auto;
+    padding: 10px 0;
+}
+
+.show-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    font-size: 15px;
+}
+
+.show-content {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.show-content-box {
+    height: auto;
+    width: 100%; 
+    max-width: 160px; 
+}
+
+.bar {
+    height: auto;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+.bar1 {
+    height: 65px;
+    width: auto; 
+}
+
+.foot1 {
+    width: auto; 
+    height: 40px;
+}
+
+.install-img {
+    width: 40px;
+}
+
+.arrow img {
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .slide {
+        width: 200px; 
+    }
+
+    .menu {
+        height: auto; 
+    }
+
+    .playlist {
+        margin-top: 10px;
+    }
+
+    .download {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .bar {
+        flex-direction: column; 
+        gap: 10px;
+        padding-left: 0;
+    }
+}
